@@ -36,15 +36,14 @@ This produces an executable called `main_parallel` inside the `build/` folder.
 ```
 
 - `input_image` — path to the image you want to process
-- `output_image` — where to save the result (optional, defaults to `output_equalized_parallel.png`)
-- `num_threads` — how many threads to use (optional, defaults to the number of CPU cores)
+- `output_image` — where to save the result (optional, defaults to `output_equalized_parallel.png`
 
 ### Example
 
 Using the sample image included in `sample_input.png`:
 
 ```bash
-./main_parallel ../test/sample.png ../results/output.png 
+./main_parallel ../test/sample.png ../output.png 
 ```
 
 This reads `sample.png`, runs grayscale conversion + histogram equalization
