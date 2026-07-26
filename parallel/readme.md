@@ -45,7 +45,7 @@ This produces an executable called `main_parallel` inside the `build/` folder.
 Using the sample image included in `sample_input.png`:
 
 ```bash
-./main_parallel ../test/sample.png ../results/output.png 
+./main_parallel ../test/sample.png ../output.png 
 ```
 
 This reads `sample.png`, runs grayscale conversion + histogram equalization
